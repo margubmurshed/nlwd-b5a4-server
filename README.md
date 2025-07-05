@@ -90,6 +90,7 @@ GET `/api/books/` has query parameters:
 - sortBy -> field name (default: createdAt)
 - sort -> asc or desc
 - limit -> valid non negative integer (default: 10)
+- page -> valid positive integer (default: 1)
 Without defining sort asc or descending, sortBy won't work.
 
 **Example Query: /api/books?filter=SCIENCE&sortBy=createdAt&sort=desc&limit=5**
